@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "build": "webpack",
     "server": "node server/index.js"
   },
@@ -16,18 +16,22 @@
     "backbone.marionette": "^4.0.0",
     "css-loader": "^1.0.0",
     "ejs": "^2.6.1",
+    "eslint": "^5.6.1",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "handlebars": "^4.0.12",
     "handlebars-loader": "^1.7.0",
+    "jasmine": "^3.2.0",
     "jquery": "^3.3.1",
     "node-sass": "^4.9.3",
     "postcss-loader": "^3.0.0",
+    "prettier-eslint": "^8.8.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "webpack-cli": "^3.1.1",
+    "webpack-karma-jasmine": "^3.0.4"
   },
   "dependencies": {}
 }
