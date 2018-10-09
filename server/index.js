@@ -7,7 +7,7 @@ const port = 3000;
 const hbs = exphbs.create({
 	extname: '.hbs',
 	partialsDir: path.resolve('src/templates/partials'),
-	layoutsDir: './',
+	layoutsDir: path.resolve('./'),
 	defaultLayout: 'index'
 });
 
